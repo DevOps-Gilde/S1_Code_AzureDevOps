@@ -12,8 +12,8 @@ stages:
 - stage: CreateAppServicePlan
   displayName: Create App Service Plan stage
   jobs:
-  - job: Build
-    displayName: Build
+  - job: CreateAppServicePlan
+    displayName: CreateAppServicePlan
     pool:
       vmImage: 'ubuntu-latest'
     steps:
