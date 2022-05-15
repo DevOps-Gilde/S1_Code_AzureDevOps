@@ -18,6 +18,7 @@ stages:
       vmImage: 'ubuntu-latest'
     steps:
     - task: AzureCLI@2
+      displayName: Create WebApp Infra
       inputs:
         azureSubscription: '$(so)'
         scriptType: 'bash'
